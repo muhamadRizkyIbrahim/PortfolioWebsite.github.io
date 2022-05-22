@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navibar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 0 0 1px grey;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.432);
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+/* JT */
+
+.jt {
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    text-align: center;
+    height: 270px;
+    transform: translateY(-13px);
+}
+
+.jt .header_jt {
+    transform: translateY(12px);
+}
+
+.jt .header_jt .img img {
+    border-radius: 50%;
+    border: 2px outset black;
+}
+
+/* About */
+
+.about h2 {
+    text-align: center;
+}
+
+.about hr {
+    width: 120px;
+    transform: translateY(12px);
+    margin: auto;
+    border: 1px solid black;
+}
+
+/* About Card */
+
+.container-about {
+    margin: 50px auto;
+    display: flex;
+}
+
+.header-about {
+    padding: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+}
+
+.header-about .hero-about {
+    width: auto;
+    height: 150px;
+    transform: translateY(-20px);
+    background-color: #666;
+}
+
+.header-about .content-about {
+    text-align: center;
+}
